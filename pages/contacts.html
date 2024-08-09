@@ -1,19 +1,43 @@
 <html>
-    <head>
-        <title>Contact Us Page</title>
-    </head>
-    <body>
-        <h1>Contact Us</h1>
-        <p>Fill the form to send us a message</p>
-        <a href="../home.html">Home Page</a>
-        <a href="../products/product.html">Product Page</a>
+  <head>
+    <title>Contact Us Page</title>
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+    <p>Fill the form to send us a message</p>
+    <a href="../home.html">Home Page</a>
+    <a href="../products/product.html">Product Page</a>
+    <br /><br />
+    <form>
+      <label for="fullname">Full Name</label> <br />
+      <input name="fullname" type="text" placeholder="e.g Ade Ola" />
+      <br />
+      <label for="user_password">Password</label>
+      <input
+        name="user_password"
+        type="password"
+        placeholder="enter secure password"
+      />
+      <br />
+      <input type="tel" />
+      <input type="datetime-local" />
 
-        <form action="">
-            <p>Enter your full name</p>
-            <input type="text" placeholder="Enter your full name" />
+      <p>What is your Gender?</p>
 
-            <label for="user_password">Enter your full name</label>
-            <input name="user_password" type="" placeholder="e.g. Abcdefg@1" />
-        </form>
-    </body>
+      <label for="male">I am a male</label>
+      <input type="radio" id="male" value="male" name="user_gender" />
+
+      <br />
+      <label for="female">I am a female</label>
+      <input type="radio" id="female" value="female" name="user_gender" />
+
+      <br />
+      <label>Description</label>
+      <textarea
+        name=""
+        id=""
+        placeholder="Enter description here..."
+      ></textarea>
+    </form>
+  </body>
 </html>
