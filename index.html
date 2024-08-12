@@ -1,84 +1,54 @@
 <html>
   <head>
-    <title>Our First Website</title>
+    <title>Welcome to our first css website</title>
 
-    <!-- Inline Styling: Using Style Element -->
-    <style>
+    <!-- external styling -->
+    <link rel="stylesheet" href="css/home.css" />
+
+    <!-- internal styling -->
+    <!-- <style>
       body {
-        color: grey;
-        background-color: yellow;
+          background-color:rgb(255,0,0);
       }
-      h1 {
-        color:red
-      }
-      p {
-        color: blue
-      }
-      li {
-        color: green
-      }
-    </style>
+    </style> -->
   </head>
 
+  <!-- inline styling -->
   <body>
-    <!-- Inline styling -->
-    <h1 style="color:red">Welcome to our site</h1>
-    <p>This is a paragraph</p>
+    <a class="header_links" href="#">HomePage</a> |
+    <a class="header_links" href="#">About Us</a>
+    <h1>We have been waiting for you</h1>
+    <p class="paragraph-1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil tenetur
+      necessitatibus deleniti? Maxime error, quae commodi itaque corporis sunt,
+      harum odit laboriosam nostrum dignissimos facere, enim consectetur. Non,
+      ut doloremque?
+    </p>
 
-    <!-- 2048:1152 2048:2048 1:1 -->
-
-    <img src="assets/monkey.jpg" width="200px" alt="blue logo" />
-
-    <a href="https://gogole.com" target="_blank">My Link</a>
-
-    <ul>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-    </ul>
+    <img src="assets/blue-logo.png" width="200px" alt="" />
 
     <ol>
-      <li>Item 4</li>
-      <li>Item 5</li>
-      <li>Item 6</li>
+      <li>First Item</li>
+      <li>Second Item</li>
     </ol>
 
-    <table>
-      <thead>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>Email</th>
-      </thead>
-      <tr>
-        <td>Kene</td>
-        <td>Mba</td>
-        <td>xya@gmail.com</td>
-      </tr>
-      <tr>
-        <td>Awa</td>
-        <td>Mba</td>
-        <td>xya@gmail.com</td>
-      </tr>
-      <tr>
-        <td>Nene</td>
-        <td>Mba</td>
-        <td>xya@gmail.com</td>
-      </tr>
-      <tr>
-        <td>Uche</td>
-        <td>Mba</td>
-        <td>xya@gmail.com</td>
-      </tr>
-      <tr>
-        <td>Uche</td>
-        <td>Mba</td>
-        <td>xya@gmail.com</td>
-      </tr>
-      <tr>
-        <td>Uche</td>
-        <td>Mba</td>
-        <td>xya@gmail.com</td>
-      </tr>
-    </table>
+    <p class="paragraph-2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil tenetur
+      necessitatibus deleniti? Maxime error, quae commodi itaque corporis sunt,
+      harum odit laboriosam nostrum dignissimos facere, enim consectetur. Non,
+      ut doloremque?
+    </p>
+
+    <div class="product_card">
+      <h1>Product Name</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolorum
+        voluptate soluta fugit est esse, eos voluptatem sed dicta repellendus
+        aliquam dolore necessitatibus nihil enim! Reiciendis quo quibusdam
+        eveniet dicta!m
+      </p>
+      <p>$25.44</p>
+      <a href="#">Buy Item</a>
+    </div>
   </body>
 </html>
