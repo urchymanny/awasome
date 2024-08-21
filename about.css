@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    display: inline;
+}
+
+p {
+    display: inline;
+}
+
+a {
+    display: block;
+}

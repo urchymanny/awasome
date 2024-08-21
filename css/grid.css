@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+.main {
+    width: 1920px;
+    height: 100vh;
+    background-color: red;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 24px;
+}
+
+.element {
+    grid-column: span 2;
+    background-color: pink;
+}
+
+.element_a {
+    grid-column-start: 10;
+    grid-column-end: 13;
+    background-color: blueviolet;
+}
+
+.span_8 {
+    grid-column: span 8;
+}

@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.menu {
+    /* background-color: rgb(4, 41, 41); */
+    margin: 0 auto;
+    width: max-content;
+}
+
+
+/* #top {
+
+} */
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+}
+
+a:active {
+    color: aqua;
+    background-color: blue;
+}
+
+a:visited {
+    color: brown;
+    background-color: pink;
+}
+
+.description::first-line {
+    color: rebeccapurple;
+}
+
+
+.heading_text {
+    font-size: 10px;
+    /* em, px, rem & %*/
+    font-style: oblique;
+    font-weight: 300;
+}
+
+
+.card {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(227, 227, 227);
+    border-radius: 24px;
+    padding: 10px;
+    /* border: 4px solid #1c1c1c; */
+}
+
+.card:hover {
+    background-color: rgb(106, 106, 106);
+}
+
+.image_holder {
+    width: 282px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(../assets/burger.jpg);
+    background-size: cover;
+    border-radius: 24px;
+}
+
+.button {
+    background-color: rgb(255, 255, 255);
+    width: max-content;
+    height: max-content;
+    padding: 7px;
+    border-radius: 17px;
+}
+
+/* Circle is a square with border radius 
+that's equal to half of one side */
+
+.awasome p::before {
+    color: green;
+}

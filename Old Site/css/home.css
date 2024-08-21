@@ -1,0 +1,55 @@
+/* 
+Author: Uchenna Mba
+Version: 2.00
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main_container {
+    width: 450px;
+    background-color: red;
+    /* border-width: 3px 4px;
+    border-color: rgb(81, 81, 5); */
+    /* border-style: dotted; */
+    /* dashed, dotted*/
+    /* border-radius: 10px; */
+    /* border-style: dashed dotted solid dotted; */
+    /* border-style: dashed dotted; */
+    border: 3px solid rgb(57, 4, 4);
+    outline: 5px solid rgb(101, 180, 6);
+    /* padding-left: 4px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+    padding: 10px 5px;
+    /* margin: 10px 2px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 10px auto;
+    text-align: center;
+}
+
+a {
+    text-decoration-line: overline;
+    text-decoration-color: grey;
+    margin: 0 4px;
+    padding: 10px;
+    background-color: #ffffff;
+    font-family: "Playwrite BE WAL";
+}
+
+p {
+    text-align: start;
+    text-transform: capitalize;
+    /* uppercase, lowercase */
+    /* text-indent, letter-spacing */
+
+    font-family: 'Times New Roman', Times, serif;
+    /* font-family: "Kaushan Script"; */
+}
+
+/* Serif Fonts  */
+/* Sans Serif */
